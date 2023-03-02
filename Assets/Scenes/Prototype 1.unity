@@ -620,6 +620,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vehicle: {fileID: 1766154868}
+  offset: {x: 0, y: 10, z: -2}
+  turnSpeed: 0
 --- !u!1001 &974359749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -988,6 +990,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 25
+  turnSpeed: 25
+  horizontalInput: 0
+  verticalInput: 0
 --- !u!54 &1766154876
 Rigidbody:
   m_ObjectHideFlags: 0
